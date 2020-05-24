@@ -11,4 +11,6 @@ end
     resources :post_comments, only: [:create, :destroy]
 end
 
+	resources :users, only: [:show]
+
 end
